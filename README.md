@@ -3,13 +3,13 @@
 ## Group Repositories
 Jonathan Troyer - 
 
-Carol Hubach - 
+Carol Hubach - https://github.com/carolhubach/Group-Project-2
 
 Lena Dindayal - https://github.com/lenadindayal/Group-Project2
 
-Lily Athey - 
+Lily Athey - https://github.com/lilyathey/Project2
 
-Valerie Penaranda - https://github.com/valerieep/Group-Project2/blob/main/README.md
+Valerie Penaranda - 
 
 # Describing your dataset and what data it contains:
 Our group used Kaggle to find a dataset suitable for data visualization and analysis. While browsing the available datasets, we were intrigued by the dataset “Global Shark Attacks.” This data set had 16 columns: Case Number, Date, Year, Type, Country, Area, Location, Activity, Name, Sex, Age, Injury, Fatal (Y/N), Time, Species, and Investigator or Source. Case number is the identifier for the attack. “Date” and "Year” correspond to the date and year of the attack. The “Type” column refers to if the attack was provoked, unprovoked or invalid. “Country” has all the countries where the attack happened while “Area” goes more in depth to which specific area in the country. “Location” goes even further and refers to the specific location of the attack. “Activity” details what someone was doing when the attack happened. The “Name” column houses data of all the names of people who were attacked. The “Sex” column refers to the sex of the people who were attacked (M or F). Similarly, the age of the person attacked is in the “Age” column. The “Injury” column stores the injury involved in the attack such as “Lacerations” while “Fatal(Y/N)” column stores whether the person involved in the attack died or not. The column “Time” displays the time of the attack. Next, the column “Species” houses the species of the shark involved in the attack. Lastly, the “Investigator” column has the investigator of the attack and acts as a source column. The dataset also had 6303 rows which means that this dataset went very far back in time (1800s) and recorded attacks since then. Most of the data types in this dataset are String data except for the “Date” column
@@ -31,7 +31,7 @@ We posed an overarching question related to which activities led to the most sha
 Going along this question, we wanted to ask about the correlation between the activities and the fatality rates. If one activity has a much higher fatality rate than another, people might find that information helpful for the same safety, research, and conservation purposes. Ultimately, displaying which activities lead to more deaths, can allow people to make more informed decisions in the water and then also, help researchers come up with ways to deter shark attacks. 
 Next, we wanted to dig deeper into which of these attacks were provoked versus unprovoked. This is important because some attacks are more probable than others if they are provoked. We wanted to display how activities, fatality rates, and the type of the attack were related to ultimately inform public safety and help people find ways to reduce the risk of future attacks. 
 
-The manipulations applied to the data set as part of the analysis:
+# The manipulations applied to the data set as part of the analysis:
 The first set of manipulations that we performed on the data set were concerning finding a way to make the data more uniform. We had to go through certain columns and change the data so that we could analyze and visualize it. For example, we went through and changed all of the “Date” data so that they were in the same day-month-year format. Another manipulation we made was cutting down the data set. Because there were over 6000 rows of data and we did not need a majority of them, we refined the data set in order to have less clutter clouding the data we were actually using and to fit the relevant time frame. The data ranged from 1843-2018 but we were only interested in looking at the past 20 years, so the data we ended up with ranged from 1998-2018. Ultimately, there were a lot of different uses for the “Find & Replace” function while cleaning up this data set. For example, in the “Date” column some of the cells started with “Reported,” “Between,” or “Circa,” which we had to change using the “Find & Replace” Excel function. 
 Next, we removed the “Name” column from the dataset because there was no need to know the name of someone who was in a shark attack. Moreover, there were errors in the data in this column since some rows would not have a name but rather the sex of the person attacked which is redundant given that the “Sex” column already exists. 
 In Tableau, we sorted all the activities into 22 different groups based on their descriptions. Before, there were over 150 different activities, but grouping them allowed us to see a more overall view of which activities. For example, the “Fishing” group includes activities such as “Fishing for tarpon” and “Fishing for sharks.”
