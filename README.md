@@ -5,8 +5,8 @@ Jonathan Troyer -
 
 Carol Hubach - 
 
-Lena Dindayal - 
+Lena Dindayal - https://github.com/lenadindayal/Group-Project2
 
 Lily Athey - 
 
-Valerie Penaranda - 
+Valerie Penaranda - https://github.com/valerieep/Group-Project2/blob/main/README.md
