@@ -1,7 +1,7 @@
 # Team ns_21479_4
 # Global Shark Attack Data Visualization Project
 ## Group Repositories
-Jonathan Troyer - 
+Jonathan Troyer - https://github.com/jonathantroyer31/Group-Project-2
 
 Carol Hubach - https://github.com/carolhubach/Group-Project-2
 
