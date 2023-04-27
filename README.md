@@ -1,5 +1,5 @@
 # Team ns_21479_4
-# Group-Project2
+# Global Shark Attack Data Visualization Project
 ## Group Repositories
 Jonathan Troyer - 
 
